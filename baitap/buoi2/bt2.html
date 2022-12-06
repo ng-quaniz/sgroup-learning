@@ -9,6 +9,9 @@
     <title>Buổi 2
     </title>
     <style>
+        *{
+            font-family: 'Inter', sans-serif;
+        }
         .header{
             display: flex; justify-content: space-between;
             align-items: center;
@@ -41,44 +44,155 @@
             width: 200px;
             height: 50px;
             color: #f26464;
-            font-weight: 700;   
+            font-weight: 500; 
+            letter-spacing: 3px; 
+              
         }
         .body{display: flex; justify-content: flex-start;}
         .body img{
-            width: 50%;
+            width: 40%;
             height: inherit;
         }
         .bodydiv{
-            width: 65%;
+            width: 60%;
             height: inherit;
-            padding: 10px 30px;
+            padding: 0px 30px;
+        }
+        .bodydiv h1{
+            font-size: 40px;
+            margin-bottom: 50px; 
+            line-height: 60px;
+            letter-spacing: 3px;
         }
 
         .abc{display: flex; justify-content: flex-start;}
         .abc b{
             color: #f26464;
             font-weight: 900;
-            font-size: 30px;
+            font-size: 40px;
         }
         .abc p{
             margin-right: 60px;
         }
         .abc a{
-            font-size: 13px;
+            font-size: 15px;
+            letter-spacing: 2px;
 
         }
         .bodys{
             margin-inline: 150px;
-            font-family: 'Inter', sans-serif;
         }
         .bodys h5{
             border-bottom: 2px solid #F26464;
             display: inline-flex;
-            padding-bottom: 7px; ;
+            padding-bottom: 7px; letter-spacing: 2px;
+        }
+        .bodys h2{padding-top: 0px;
+        margin-top: 0px;
+        margin-bottom: 40px;}
+        .bodys h3{
+            font-weight: 200;
+            font-size: 24px;
+            margin: 0px;
+        }
+        .skill{
+            display: flex;
+        }
+        .skill div{
+            width: 50%;
+        } 
+        .skillul{
+            
+            padding-left: 0px;
+        }
+        .skillul li{
+            display: inline-flex;
+            margin-right: 10px; margin-bottom: 10px;
+            font-size: 14px;
+            background-color:hsl(0 0% 100%);
+            border-color:hsl(0 0% 84%);
+            border-radius:25px;
+            border-style:solid;
+            border-width:1px;
+            padding:10px 20px; 
+        }
+        .bt input{
+            border-radius: 60px;
+            border-color: #f26464;
+            text-align: center;
+            padding:15px 25px;
+            color: #f26464;
+            font-weight: 500    ;
+            letter-spacing: 3px; 
+            
+        }
+        .work
+        {
+            background-color:#f6f8fa;
+            color:#373737;
+            margin:0px 0px 40px;
+            padding:40px 70px 0px;
+            display: flex;
+        }
+
+        .dwork{
+            padding:0px 100px 0px 0px;
+            width: 60%;
+        }
+        .dwork p{
+            margin-block: 40px;
+            font-size: 17px;
+            line-height: 25px;
+        }
+        .dimg{
+            width: 40%;
+            align-items: center;
+        }
+        .dimg img{
+            
+            height: 100%;
+            width: 100%;
+        }
+        .worke{
+            display: flex;
+        }
+        .worke div{
+            width: 50%;
+        }
+        .worke p{
+            line-height: 20px;
+        }
+        .worke li{
+            line-height: 20px;
+        }
+        .footer{
+            background-color:#000000;
+            text-align: center;
+            color:#ffffff;
+            padding:70px 0px;
+        }
+        .footer input{
+            background-color: #000;
+            border-radius: 60px;
+            border-color: #f26464;
+            text-align: center;
+            padding:10px 20px;
+            color: #f26464;
+            letter-spacing: 3px; 
+            font-size:12px;
+            
+        }
+        .footer a{
+
+            color:#898989;
+            letter-spacing:1px;
+            line-height:24px;
+            
         }
     </style>
 </head>
-<body class="bodys">
+<body>
+    <div class="bodys">
     <div class="header">
     <a class="logo">       
          <span>J</span>JASON STROFF
@@ -117,9 +231,111 @@
 
     </div>
     <h5>ABOUT ME</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum ante a porta blandit. Quisque velit tortor, ultricies in quam ut, luctus convallis metus. Nunc vitae felis rutrum, mattis justo quis, bibendum tellus. Integer bibendum eget dolor nec venenatis. Aliquam erat volutpat. Etiam et est vitae turpis accumsan vulputate. Curabitur et vehicula nisl, eu congue dolor. Vivamus nec hendrerit mi Nulla consequat tempor.</p>
+    <p style="line-height: 24px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis interdum ante a porta blandit. Quisque velit tortor, ultricies in quam ut, luctus convallis metus. Nunc vitae felis rutrum, mattis justo quis, bibendum tellus. Integer bibendum eget dolor nec venenatis. Aliquam erat volutpat. Etiam et est vitae turpis accumsan vulputate. Curabitur et vehicula nisl, eu congue dolor. Vivamus nec hendrerit mi Nulla consequat tempor.</p>
     <div class="button">
         <input type="button" value="Download Resume" name="Download Resume" >
+    </div>
+    <div class="skill">
+        <div>
+        <h5>CORE SKILLS</h5>
+        <ul class="skillul">
+            <li>JavaScript</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>MongoDB</li>
+            <li>Vue.j</li>
+            <li>React</li>
+            <li>Sequelize</li>
+            <li>Github</li>
+            <li>HTML </li>
+        </ul>
+    </div>
+    <div>
+        <h5>OTHER SKILLS</h5>   
+        <ul class="skillul">
+            <li>Storyblok</li>
+            <li>PWAs</li>
+            <li>Responsive Web Design</li>
+            <li>React</li>
+            <li>Vuetify</li>
+        </ul>
+    </div>
+    </div>
+    <div>
+        <h5>WORK EXPERIENCE</h5>
+        <div  class="worke">
+            <div>
+                <p style="font-weight:700">2019 - Present</p>
+                <h3>Matrix Media Inc</h3>
+                <p style="font-weight:600; font-size:19px">Full Stack developer</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis sem maximus, ornare metus ut, congue enim. Sed fermentum.</p>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis sem maximus, ornare metus ut.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                </ul>
+            </div>
+            <div>
+                <p style="font-weight:700">2018 - 2019</p>
+                <h3>Lexind</h3>
+                <p style="font-weight:600; font-size:19px">Senior app developer</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis sem maximus, ornare metus ut, congue enim. Sed fermentum.</p>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis sem maximus, ornare metus ut.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis sem maximus, ornare metus ut.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h5>LATEST WORKS</h5>
+        <div class="work">
+            <div class="dwork" >
+                <h2>Tripy mobile app</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis sem maximus, ornare metus ut, congue enim. Sed fermentum nulla tellus, quis efficitur mauris tristique efficitur. Aliquam rhoncus sem sed ullamcorper venenatis. Aenean malesuada eu orci non sodales.</p>
+                <a class="bt">
+                    <input type="button" value="DETAILS" >
+                </a>
+            </div>
+            <div class="dimg">
+                <img src="./images/work-1.jpg" alt="">
+            </div>
+        </div>
+        <div class="work">
+            <div class="dwork" >
+                <h2>Hello mobile app</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis sem maximus, ornare metus ut, congue enim. Sed fermentum nulla tellus, quis efficitur mauris tristique efficitur. Aliquam rhoncus sem sed ullamcorper venenatis. Aenean malesuada eu orci non sodales.</p>
+                <a class="bt">
+                    <input type="button" value="DETAILS" >
+                </a>
+            </div>
+            <div class="dimg">
+                <img src="./images/work-2.jpg" alt="">
+            </div>
+        </div>
+        <div class="work">
+            <div class="dwork" >
+                <h2>Cute cookies app</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis sem maximus, ornare metus ut, congue enim. Sed fermentum nulla tellus, quis efficitur mauris tristique efficitur. Aliquam rhoncus sem sed ullamcorper venenatis. Aenean malesuada eu orci non sodales.</p>
+                <a class="bt">
+                    <input type="button" value="DETAILS" >
+                </a>
+            </div>
+            <div class="dimg">
+                <img src="./images/work-3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="footer">
+        <a style="font-weight:700;">STAY IN TOUCH</a>
+    <p style="font-size:40px;font-weight:700; margin-bottom: 5px;">Ready to talk?</p>
+    <p style="margin-bottom: 40px ;">Feel free to contact us</p>
+    <p style="margin-bottom: 80px ;">
+        <input type="button" value="LETS TALK" >
+    </p><br>
+    <a>© 2022 All rights reserved. Free minimal bootstrap template by Designstub.</a>
+
     </div>
     
 </body>
