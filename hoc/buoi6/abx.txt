@@ -1,0 +1,16 @@
+position:
+static
+relative
+absolute
+tranform
+
+@improt
+_***
+shapedivider
+lazyloading
+parallax scrolling
+github student
+animation wavy div
+drop dowm
+
+

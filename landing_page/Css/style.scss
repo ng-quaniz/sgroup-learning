@@ -1,0 +1,31 @@
+*{
+
+}
+
+nav{
+    display: flex;
+    img{
+        display: flex;
+        height: 60px; 
+    }
+    a{
+        display: flex;
+        justify-content: center; align-items: center;
+        font-weight: 600;
+        margin-inline: 5px;
+        
+    }
+
+    input{
+            justify-content: flex-end;
+            border-radius: 60px;
+            text-align: center;
+            border-color: white;
+            background-color: white;
+            width: 100px;
+            height: 50px;
+            font-weight: 600; 
+              
+        }
+
+    }

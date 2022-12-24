@@ -1,0 +1,9 @@
+masonry layout
+text truncate
+calc (trừ)
+đơn vị fr (chia màn)
+tranform
+    transition
+    tranlate
+    skew
+animation
